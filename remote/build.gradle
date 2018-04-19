@@ -2,7 +2,7 @@ apply plugin: "kotlin"
 
 dependencies {
     implementation Libs.dagger
-    implementation Libs.retrofit
+    compile Libs.retrofit
     implementation Libs.kotlinStdJdk7
     implementation Libs.rxJava
 }
