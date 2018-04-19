@@ -1,0 +1,11 @@
+apply plugin: "kotlin"
+
+dependencies {
+    implementation Libs.dagger
+    implementation Libs.retrofit
+    implementation Libs.kotlinStdJdk7
+    implementation Libs.rxJava
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
